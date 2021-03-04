@@ -371,3 +371,49 @@
     flex-direction: row;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    display: none;
+  }
+
+  .link-show-big-screen {
+    display: inherit;
+  }
+
+  .mid-nav-left-links {
+    width: 38rem;
+  }
+
+  .highlights {
+    grid-template-areas:
+      "main main side"
+      "main main side";
+  }
+
+  .highlights article:first-of-type h5 a {
+    font-size: 3.5rem;
+  }
+
+  .article-opal {
+    height: 30rem;
+    background-image: linear-gradient(
+        170deg,
+        rgba(255, 10, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.9) 100%
+      ),
+      url("assets/images/opal.png");
+    background-size: cover;
+    justify-content: space-between;
+  }
+
+  .article-opal aside {
+    display: flex;
+  }
+
+  .article-cookie-killer,
+  .article-mac-app {
+    height: auto;
+  }
+}
