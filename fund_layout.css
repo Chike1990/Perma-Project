@@ -21,6 +21,15 @@
   padding: 0 1rem;
 }
 
+.funding-header > h2 a {
+  font-family: Avalon-Bold, sans-serif;
+}
+
+.funding-article header a {
+  display: flex;
+  height: 100%;
+}
+
 .funding-links > a:hover,
 .funding-header h2 a:hover {
   color: #000;
@@ -41,6 +50,7 @@
 .funding-article * {
   margin: 0;
 }
+
 .funding-article {
   font-family: ARS-Marquette-Bold, Arial, Helvetica, sans-serif;
   background-color: #fff9f2;
@@ -52,18 +62,14 @@
   background-image: linear-gradient(#f53 40%, #ffebe8 40%);
 }
 
-.funding-header > h2 a {
-  font-family: Avalon-Bold, sans-serif;
+.funding-article aside a {
+  font-size: 0.65rem;
+  color: #888;
 }
 
 .funding-article header h5 {
   font-size: 0.5rem;
   color: #888;
-}
-
-.funding-article header a {
-  display: flex;
-  height: 100%;
 }
 
 .funding-article header a img {
@@ -111,11 +117,6 @@
   border-top: #ffebe8 solid 3px;
 }
 
-.funding-article aside a {
-  font-size: 0.65rem;
-  color: #888;
-}
-
 .funding-article-icon {
   margin-right: 0.5rem;
   width: 0.8rem;
@@ -152,9 +153,9 @@
     grid-column: 1/5;
   }
 
-  .funding-links {
+  /* .funding-links {
     width: 21rem;
-  }
+  } */
 }
 
 @media screen and (min-width: 1024px) {

@@ -32,6 +32,7 @@
 .full-width {
   width: 100%;
 }
+
 /* The header_nav */
 .page-header {
   background-color: #eee;
@@ -238,6 +239,7 @@
     url("assets/images/mac-app.png");
   background-size: cover;
 }
+
 /* The footer */
 .footer-style {
   margin-top: 1rem;
@@ -275,6 +277,7 @@
   background-color: #000;
   color: #aaa;
 }
+
 /* media queries for tablets and desktop screen sizes */
 @media screen and (min-width: 768px) {
   .top-nav {
