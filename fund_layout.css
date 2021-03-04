@@ -34,6 +34,11 @@
   height: 100%;
 }
 
+.funding-article aside a {
+  font-size: 0.65rem;
+  color: #888;
+}
+
 .funding-links > a:hover,
 .funding-header h2 a:hover {
   color: #000;
@@ -64,11 +69,6 @@
   height: 5rem;
   padding: 0.6rem;
   background-image: linear-gradient(#f53 40%, #ffebe8 40%);
-}
-
-.funding-article aside a {
-  font-size: 0.65rem;
-  color: #888;
 }
 
 .funding-article header h5 {
