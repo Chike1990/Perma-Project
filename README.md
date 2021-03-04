@@ -13,7 +13,7 @@ It's a TNW webpage built with HTML 5 semantic tags, CSS grid, flex, etc.
 
 ## Live Demo
 
-[Live Demo Link](https://chike1990.github.io/TNW_Project/)
+[Live Demo Link](https://chike1990.github.io/Perma-Project/.)
 
 ## Authors
 
