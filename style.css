@@ -404,12 +404,12 @@
   .article-opal {
     height: 30rem;
     background-image:
-    linear-gradient(
-      170deg,
-      rgba(255, 10, 0, 0.9) 0%,
-      rgba(0, 0, 0, 0) 50%,
-      rgba(0, 0, 0, 0.9) 100%
-    ),
+      linear-gradient(
+        170deg,
+        rgba(255, 10, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.9) 100%
+      ),
       url("assets/images/opal.png");
     background-size: cover;
     justify-content: space-between;
