@@ -21,6 +21,10 @@
   padding: 0 1rem;
 }
 
+.funding-article a {
+  text-decoration: none;
+}
+
 .funding-header > h2 a {
   font-family: Avalon-Bold, sans-serif;
 }
@@ -90,10 +94,6 @@
 
 .funding-article-title > div h4 {
   color: #000;
-}
-
-.funding-article a {
-  text-decoration: none;
 }
 
 .funding-article section,
