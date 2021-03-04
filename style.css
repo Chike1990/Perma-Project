@@ -216,7 +216,8 @@
 }
 
 .article-opal {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("assets/images/opal.png");
   background-size: cover;
   justify-content: flex-end;
@@ -229,13 +230,15 @@
 }
 
 .article-cookie-killer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background-image:
+   linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("assets/images/cookie-killer.png");
   background-size: cover;
 }
 
 .article-mac-app {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("assets/images/mac-app.png");
   background-size: cover;
 }
@@ -401,11 +404,11 @@
   .article-opal {
     height: 30rem;
     background-image: linear-gradient(
-        170deg,
-        rgba(255, 10, 0, 0.9) 0%,
-        rgba(0, 0, 0, 0) 50%,
-        rgba(0, 0, 0, 0.9) 100%
-      ),
+      170deg,
+      rgba(255, 10, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.9) 100%
+  ),
       url("assets/images/opal.png");
     background-size: cover;
     justify-content: space-between;
